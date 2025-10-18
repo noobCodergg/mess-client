@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-    baseURL: "http://localhost:8000/api/auth", 
+    baseURL: "https://mess-server-2.onrender.com/api/auth", 
     withCredentials: true,
   });
 
